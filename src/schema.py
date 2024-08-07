@@ -1,0 +1,32 @@
+import polars as pl
+
+BOOK_SCHEMA = {
+    'id': pl.Int64,
+    'author_name': pl.Utf8,
+    'bestsellers-rank': pl.Int64,
+    'category_name': pl.Utf8,
+    'description': pl.Utf8,
+    'format_name': pl.Utf8,
+    'dimension-x': pl.Float64,
+    'dimension-y': pl.Float64,
+    'dimension-z': pl.Float64,
+    'edition': pl.Utf8,
+    'edition-statement': pl.Utf8,
+    'for-ages': pl.Utf8,
+    'illustrations-note': pl.Utf8,
+    'image-checksum': pl.Utf8,
+    'image-path': pl.Utf8,
+    'image-url': pl.Utf8,
+    'imprint': pl.Utf8,
+    'index-date': pl.Datetime,
+    'isbn10': pl.Utf8,
+    'isbn13': pl.Utf8,
+    'lang': pl.Utf8,
+    'publication-date': pl.Datetime,
+    'publication-place': pl.Utf8,
+    'rating-avg': pl.Float64,
+    'rating-count': pl.Int64,
+    'title': pl.Utf8,
+    'url': pl.Utf8,
+    'weight': pl.Float64
+}
